@@ -25,7 +25,7 @@ class ovsController extends Controller
           $path=public_path('/uploads');
           $file->move($path,$new_name);
           $image_url=asset('uploads/'.$new_name);
-       //    dd('$image_url');
+       
       }
        try{
 
